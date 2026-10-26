@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fahdimas Akmal – Web Developer (Backend & Fullstack)</title>
+<meta name="description" content="Portofolio Fahdimas Akmal, mahasiswa Teknik Informatika UTM yang membangun aplikasi web dengan PHP, MySQL, dan Flask.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=Figtree:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f5f7fa;--card:#fff;--ink:#17202e;--mute:#566176;--line:#dde3ec;--acc:#2447d6;--acc-soft:#e8edfc}
+@media(prefers-color-scheme:dark){:root{--bg:#0f141c;--card:#171e29;--ink:#e8edf5;--mute:#9aa6ba;--line:#283243;--acc:#7f9bff;--acc-soft:#1b2540}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 Figtree,system-ui,sans-serif}
+a{color:var(--acc)}
+a:focus-visible,button:focus-visible{outline:3px solid var(--acc);outline-offset:3px;border-radius:4px}
+.wrap{max-width:960px;margin:0 auto;padding:0 24px}
+h1,h2,h3{font-family:'Bricolage Grotesque',Figtree,sans-serif;line-height:1.15;margin:0}
+header{padding:72px 0 40px;border-bottom:1px solid var(--line)}
+h1{font-size:clamp(2.6rem,7vw,4.6rem);font-weight:700;letter-spacing:-.03em}
+.role{font-size:1.25rem;color:var(--acc);font-weight:600;margin:12px 0 20px}
+.links{display:flex;flex-wrap:wrap;gap:10px 22px;margin:0;padding:0;list-style:none}
+.links a{font-weight:600}
+nav{position:sticky;top:0;background:var(--bg);border-bottom:1px solid var(--line);z-index:5}
+nav .wrap{display:flex;gap:22px;padding-top:12px;padding-bottom:12px;overflow-x:auto}
+nav a{color:var(--mute);text-decoration:none;font-weight:600;white-space:nowrap}
+nav a:hover{color:var(--acc)}
+section{padding:56px 0 8px}
+h2{font-size:2rem;margin-bottom:18px;letter-spacing:-.02em}
+p{margin:0 0 14px;max-width:68ch}
+.skills{display:grid;grid-template-columns:140px 1fr;gap:10px 20px;margin:0}
+.skills dt{font-weight:600}.skills dd{margin:0;color:var(--mute)}
+.proj{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:28px;margin:0 0 28px}
+.proj h3{font-size:1.6rem;margin-bottom:6px}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 16px;padding:0;list-style:none}
+.tags li{background:var(--acc-soft);color:var(--acc);border-radius:99px;padding:2px 12px;font-size:.88rem;font-weight:600}
+.meta{color:var(--mute);margin-bottom:14px}
+.proj ul.do{margin:0 0 20px;padding-left:20px}.proj ul.do li{margin-bottom:6px}
+.proj .btns{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:22px}
+.btn{display:inline-block;padding:8px 16px;border:1px solid var(--acc);border-radius:8px;text-decoration:none;font-weight:600}
+.btn:hover{background:var(--acc);color:var(--card)}
+.shots{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;align-items:start}
+figure{margin:0}
+.frame{border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--bg)}
+.frame::before{content:"";display:block;height:20px;background:var(--line)}
+.frame img{display:block;width:100%;height:auto}
+figcaption{font-size:.9rem;color:var(--mute);margin-top:8px}
+footer{padding:40px 0 64px;color:var(--mute);border-top:1px solid var(--line);margin-top:40px}
+@media(max-width:560px){.skills{grid-template-columns:1fr;gap:0}.skills dd{margin-bottom:12px}.proj{padding:20px}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<h1>Fahdimas Akmal</h1>
+<p class="role">Web developer: backend dan fullstack</p>
+<ul class="links">
+<li><a href="mailto:fahdimas42@gmail.com">fahdimas42@gmail.com</a></li>
+<li><a href="https://github.com/Fahdimas">github.com/Fahdimas</a></li>
+<li><a href="https://wa.me/6285159716055">+62 8515-971-6055</a></li>
+</ul>
+</div></header>
+<nav aria-label="Navigasi"><div class="wrap"><a href="#ringkasan">Ringkasan</a><a href="#keahlian">Keahlian</a><a href="#kedaiku">Kedaiku</a><a href="#kasir-kopi">Kasir Kopi</a><a href="#hotel">Hotel</a><a href="#apotek">Apotek</a></div></nav>
+<main class="wrap">
+<section id="ringkasan">
+<h2>Ringkasan</h2>
+<p>Mahasiswa Teknik Informatika semester 6 Universitas Trunojoyo Madura yang membangun aplikasi web dengan PHP, MySQL, dan Flask. Saya mencari magang di bidang web development (backend atau fullstack).</p>
+<p>Fokus saya adalah pengembangan aplikasi web, dari tampilan sampai logika dan database. Saat magang, saya ingin belajar membangun fitur backend yang rapi dan aman, serta bekerja dalam tim dengan alur kerja pengembangan yang dipakai di proyek nyata.</p>
+</section>
+<section id="keahlian">
+<h2>Keahlian</h2>
+<p>Hanya yang sudah saya pakai di proyek di bawah.</p>
+<dl class="skills">
+<dt>Backend</dt><dd>PHP, Python (Flask), autentikasi dan OTP, validasi data, logika pemesanan</dd>
+<dt>Database</dt><dd>MySQL, SQLite, perancangan tabel dan relasi</dd>
+<dt>Frontend</dt><dd>HTML, CSS, desain halaman responsif</dd>
+<dt>Alat</dt><dd>Git dan GitHub, kerja tim lewat branch dan merge</dd>
+</dl>
+</section>
+<section id="proyek">
+<h2>Proyek</h2>
+<p>Di setiap proyek saya tulis peran saya dan tautan ke commit saya, supaya jelas bagian mana yang saya kerjakan sendiri.</p>
+
+<article class="proj" id="kedaiku">
+<h3>Kedaiku</h3>
+<p class="meta">Fullstack · Proyek kelompok, mata kuliah RPL</p>
+<p>Aplikasi web toko online dengan katalog produk, checkout, dan halaman admin.</p>
+<ul class="tags"><li>PHP</li><li>MySQL</li><li>HTML</li><li>CSS</li></ul>
+<ul class="do"><li>Mendesain tampilan homepage, login, katalog produk, dan profil pelanggan.</li><li>Membuat fitur lupa password dengan verifikasi OTP yang dikirim ke email terdaftar, serta fitur edit profil.</li><li>Membuat checkout dengan validasi stok, fitur admin, dan pembaruan database.</li></ul>
+<div class="btns"><a class="btn" href="https://github.com/jaidan2212/Project_RPL">Repo</a><a class="btn" href="https://github.com/jaidan2212/Project_RPL/commits?author=Fahdimas">Commit saya</a></div>
+<div class="shots">
+<figure><div class="frame"><img src="img/kedaiku-katalog.png" alt="Halaman katalog produk Kedaiku" loading="lazy"></div><figcaption>Katalog produk</figcaption></figure>
+<figure><div class="frame"><img src="img/kedaiku-otp.png" alt="Halaman verifikasi OTP Kedaiku" loading="lazy"></div><figcaption>Verifikasi OTP (lupa password)</figcaption></figure>
+</div>
+</article>
+
+<article class="proj" id="kasir-kopi">
+<h3>Kasir Kopi</h3>
+<p class="meta">Fullstack · Proyek pribadi</p>
+<p>Aplikasi kasir coffeeshop untuk admin: kelola menu bergambar, buat pesanan, dan pantau antrian sampai pesanan ditandai selesai.</p>
+<ul class="tags"><li>Python</li><li>Flask</li><li>SQLite</li><li>Jinja2</li><li>HTML</li><li>CSS</li></ul>
+<ul class="do"><li>Login admin dengan password ter-hash dan pengelolaan admin (tambah, ganti password, hapus).</li><li>Kelola minuman dan topping, termasuk upload gambar minuman.</li><li>Pembuatan pesanan dengan keranjang dan antrian pesanan berurutan dengan tombol Selesai.</li></ul>
+<div class="btns"><a class="btn" href="https://github.com/Fahdimas/coffeeshop-flask">Repo</a></div>
+<div class="shots">
+<figure><div class="frame"><img src="img/kasir-pesanan.jpeg" alt="Halaman buat pesanan Kasir Kopi" loading="lazy"></div><figcaption>Buat pesanan</figcaption></figure>
+<figure><div class="frame"><img src="img/kasir-menu.jpeg" alt="Halaman kelola menu Kasir Kopi" loading="lazy"></div><figcaption>Kelola menu</figcaption></figure>
+</div>
+</article>
+
+<article class="proj" id="hotel">
+<h3>Sistem Pemesanan Kamar Hotel</h3>
+<p class="meta">Fullstack · Proyek kelompok, mata kuliah PAW</p>
+<p>Aplikasi web pemesanan kamar hotel dengan daftar kamar, detail, fasilitas, riwayat pemesanan, dan pengelolaan kamar oleh admin.</p>
+<ul class="tags"><li>PHP</li><li>MySQL</li><li>HTML</li><li>CSS</li></ul>
+<ul class="do"><li>Membuat tampilan daftar kamar, detail kamar, fasilitas, dan kontak.</li><li>Mengerjakan autentikasi, logika pemesanan, riwayat booking, dan fitur review.</li><li>Membuat manajemen kamar untuk admin serta konfigurasi dan struktur database.</li></ul>
+<div class="btns"><a class="btn" href="https://github.com/NURHABIBATULUMAH/Project-PAW-Sistem-Pemesanan-Kamar-Hotel">Repo</a><a class="btn" href="https://github.com/NURHABIBATULUMAH/Project-PAW-Sistem-Pemesanan-Kamar-Hotel/commits?author=Fahdimas">Commit saya</a></div>
+<div class="shots">
+<figure><div class="frame"><img src="img/hotel-kamar.png" alt="Halaman detail kamar Skyline Hotel" loading="lazy"></div><figcaption>Detail kamar</figcaption></figure>
+<figure><div class="frame"><img src="img/hotel-beranda.png" alt="Halaman beranda Skyline Hotel" loading="lazy"></div><figcaption>Beranda hotel</figcaption></figure>
+</div>
+</article>
+
+<article class="proj" id="apotek">
+<h3>Sistem Manajemen Apotek</h3>
+<p class="meta">Frontend · Proyek kelompok (backend dikerjakan rekan tim)</p>
+<p>Aplikasi web untuk mengelola data apotek, seperti data obat, supplier, dan transaksi penjualan.</p>
+<ul class="tags"><li>HTML</li><li>CSS</li></ul>
+<ul class="do"><li>Membuat tampilan antarmuka halaman Data Obat dan Data Supplier dengan HTML dan CSS.</li><li>Menyiapkan tampilan agar bisa dihubungkan dengan backend yang dikerjakan rekan tim.</li></ul>
+<div class="btns"><a class="btn" href="https://github.com/NURHABIBATULUMAH/Sistem-Manajemen-Apotek">Repo</a><a class="btn" href="https://github.com/NURHABIBATULUMAH/Sistem-Manajemen-Apotek/commits?author=Fahdimas">Commit saya</a></div>
+<div class="shots" style="grid-template-columns:1fr">
+<figure><div class="frame"><img src="img/apotek-supplier.png" alt="Halaman data supplier" loading="lazy"></div><figcaption>Data supplier</figcaption></figure>
+<figure><div class="frame"><img src="img/apotek-obat.png" alt="Halaman pengaturan master obat" loading="lazy"></div><figcaption>Pengaturan master obat</figcaption></figure>
+</div>
+</article>
+</section>
+</main>
+<footer><div class="wrap">Fahdimas Akmal · Web developer</div></footer>
+</body>
+</html>
